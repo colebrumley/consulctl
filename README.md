@@ -1,6 +1,8 @@
 # consulctl
 Command line client for the Consul HTTP API
 
+**See [#1](https://github.com/colebrumley/consulctl/issues/1)**
+
 I started writing `consulctl` because there isn't a feature-complete command line client for Consul that supports TLS and basic auth available right now.  That's all fine and good if you like crafting long tedious curl commands, but some of us are lazy and prefer setting flags to URL queries.  `consulctl` aims to be Consul's answer to the very well done `etcdctl`.
 
 This project is nowhere near complete, but most of the API is covered with at least list and get/set method commands where appropriate. Going forward there will likely be changes to commands and flags as I work out where functions should live in the CLI structure. The CLI help should be all you need to get started, let me know if something is broken.
